@@ -121,7 +121,7 @@ def create_psql_config():
                 "compartment_id":oci_dst_db_comp_id,
                 "is_flexible":oci_psql_src_config.is_flexible,
                 "db_version":oci_psql_src_config.db_version.split('.')[0],
-                "shape":oci_psql_src_config.shape,
+                "compatible_shapes":oci_psql_src_config.compatible_shapes,
                 "db_configuration_overrides":override_collection
             }
 
