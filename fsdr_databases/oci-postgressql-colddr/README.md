@@ -22,11 +22,12 @@ This repository contains a collection of scripts designed to facilitate Create /
 
 ### FSDR Policies Required
 
-- Allow group <group> to manage buckets in compartment <compartment name>
-- Allow group <group> to manage objects in compartment <compartment name>
-- Allow group <group> to manage instance-family in compartment <compartment name>
-- Allow group <group> to manage instance-agent-command-family in compartment <compartment name>
-- Allow group <group> to manage volume-family in compartment <compartment name>
+- Allow dynamic-group <dynamic_group_name> to use tag-namespaces in tenancy
+- Allow dynamic-group <dynamic_group_name> to manage buckets in compartment
+- Allow dynamic-group <dynamic_group_name> to manage objects in compartment
+- Allow dynamic-group <dynamic_group_name> to manage instance-family in compartment
+- Allow dynamic-group <dynamic_group_name> to manage instance-agent-command-family in compartment
+- Allow dynamic-group <dynamic_group_name> to manage volume-family in compartment
 
 ## Scripts  
 
